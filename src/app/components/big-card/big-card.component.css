@@ -16,12 +16,20 @@
   font-size: 20px;
 }
 
-.big-card__descripition {
+.big-card__description {
   margin-top: 15px;
 }
 
-.big-card__descripition > p > a {
+.big-card__description > a {
   color: gray;
+
+  text-align: justify;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
 }
 
 .big-card__photo > img {

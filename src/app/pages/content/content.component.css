@@ -17,11 +17,18 @@
   height: 300px;
 }
 
+
 .content__description {
   margin-top: 15px;
 }
 
+.content__description > a {
+  margin-left: 30px;
+}
+
 .content__description > p {
   margin: 20px;
-  color: rgb(198,197,197);
+  color: gray;
+  text-align: justify;
+  max-width: 600px;
 }
